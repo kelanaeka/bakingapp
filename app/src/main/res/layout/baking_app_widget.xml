@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#09C"
+    android:padding="@dimen/widget_margin"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bakingapp_widget_launcher"
+            android:layout_gravity="left"
+            android:src="@drawable/recipe_icon_48"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/recipe_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="Halloo"
+            android:textSize="24sp"
+            android:textColor="#ffebee"
+            android:textStyle="bold|italic"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:padding="10dp"
+        android:textSize="12sp"
+        android:textColor="#ffebee"
+        android:id="@+id/recipe_list_tv"/>
+
+</LinearLayout>

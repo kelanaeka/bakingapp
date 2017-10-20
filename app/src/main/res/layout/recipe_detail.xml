@@ -1,0 +1,28 @@
+<LinearLayout android:layout_height="match_parent" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/recipe_title_tv"
+        style="?android:attr/textAppearanceLarge"
+        android:padding="16dp"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/recipe_detail"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:textIsSelectable="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/view_steps_bt"
+        android:text="View Cooking Steps"
+        android:visibility="invisible"/>
+
+</LinearLayout>
